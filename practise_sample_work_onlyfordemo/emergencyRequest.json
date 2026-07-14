@@ -1,0 +1,29 @@
+{
+  "requestId": "ER001",
+  "patient": {
+    "patientId": "PAT101",
+    "name": "Rahul Sharma",
+    "age": 28,
+    "bloodGroup": "O+",
+    "contact": "9876543210"
+  },
+  "pickupLocation": {
+    "latitude": 23.0225,
+    "longitude": 72.5714,
+    "address": "Nirma University, Ahmedabad"
+  },
+  "emergencyType": "Road Accident",
+  "priority": "High",
+  "assignedAmbulance": {
+    "ambulanceId": "AMB201",
+    "vehicleNumber": "GJ01AB1234",
+    "driverName": "Amit Patel",
+    "status": "On the Way"
+  },
+  "assignedHospital": {
+    "hospitalId": "HSP301",
+    "hospitalName": "Civil Hospital Ahmedabad"
+  },
+  "requestStatus": "Accepted",
+  "requestedAt": "2026-07-14T10:30:00Z"
+}
