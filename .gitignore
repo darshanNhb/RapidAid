@@ -1,0 +1,31 @@
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Node Modules
+node_modules/
+
+# Build Output
+dist/
+build/
+
+# Coverage
+coverage/
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Package Managers
+.pnpm-store/
