@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RapidAid Emergency Request Manager</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>🚑 RapidAid Emergency Requests</h1>
+
+<input type="text" id="patientName" placeholder="Patient Name"><br><br>
+<input type="number" id="age" placeholder="Age"><br><br>
+<input type="text" id="bloodGroup" placeholder="Blood Group"><br><br>
+<input type="text" id="contactNumber" placeholder="Contact Number"><br><br>
+
+<label>Emergency Type</label><br>
+<select id="emergencyType">
+<option>Road Accident</option>
+<option>Heart Attack</option>
+<option>Medical Emergency</option>
+<option>Stroke</option>
+<option>Fire Injury</option>
+<option>Pregnancy Emergency</option>
+<option>Poisoning</option>
+<option>Other</option>
+</select><br><br>
+
+<label>Priority</label><br>
+<select id="priority">
+<option>Low</option>
+<option>Medium</option>
+<option>High</option>
+<option>Critical</option>
+</select><br><br>
+
+<input type="text" id="pickupLocation" placeholder="Pickup Location"><br><br>
+
+<label>Assigned Ambulance</label><br>
+<select id="assignedAmbulance">
+<option>No</option>
+<option>Yes</option>
+</select><br><br>
+
+<label>Assigned Hospital</label><br>
+<select id="assignedHospital">
+<option>No</option>
+<option>Yes</option>
+</select><br><br>
+
+<button onclick="addRequest()">Add Emergency Request</button>
+
+<hr>
+<div id="requestList"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
